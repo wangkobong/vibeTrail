@@ -14,18 +14,18 @@
 - [x] `packages/shared` 내에 공통으로 쓰일 기본 `package.json` 및 `tsconfig.json` 설정
 
 ## 3. Expo (React Native) 클라이언트 세팅
-- [ ] `apps/mobile/vibe-trail` 경로에 Expo 프로젝트 뼈대 생성 (`npx create-expo-app`)
-- [ ] 생성된 Expo 프로젝트가 모노레포 워크스페이스의 일부로 정상 인식되는지 확인
-- [ ] Expo 내 기본 구조 셋업 (`src/api`, `src/hooks`, `src/components`, `assets`)
+- [x] `apps/mobile/vibe-trail` 경로에 Expo 프로젝트 뼈대 생성 (`npx create-expo-app`)
+- [x] 생성된 Expo 프로젝트가 모노레포 워크스페이스의 일부로 정상 인식되는지 확인
+- [x] Expo 내 기본 구조 셋업 (`src/api`, `src/hooks`, `src/components`, `assets`)
 
 ## 4. Node.js (Express) 서버 세팅
-- [ ] `server/` 폴더 내에 `package.json` 초기화 및 워크스페이스 이름 지정
-- [ ] TypeScript, Express, `ts-node-dev` 등 서버 구동에 필요한 기본 패키지 설치
-- [ ] 서버 전용 `tsconfig.json` 세팅
-- [ ] 서버 폴더 뼈대 구성 (`src/controllers`, `src/services`, `src/utils`)
-- [ ] `src/index.ts`를 생성하고 정상 작동을 확인하는 Health Check 엔드포인트 작성
+- [x] `server/` 폴더 내에 `package.json` 초기화 및 워크스페이스 이름 지정
+- [x] TypeScript, Express, `ts-node-dev` 등 서버 구동에 필요한 기본 패키지 설치
+- [x] 서버 전용 `tsconfig.json` 세팅
+- [x] 서버 폴더 뼈대 구성 (`src/controllers`, `src/services`, `src/utils`)
+- [x] `src/index.ts`를 생성하고 정상 작동을 확인하는 Health Check 엔드포인트 작성
 
 ## 5. 공통 모듈 (Shared) 연동 및 구동 테스트
-- [ ] `packages/shared`에 모바일과 서버가 공통으로 쓸 샘플 인터페이스(Type) 작성
-- [ ] 모바일 앱과 서버 각각에서 공용 타입을 `import` 할 수 있도록 경로 세팅 (Path Aliases 등)
-- [ ] 루트 디렉토리에서 `turbo run dev` 명령어를 통해 앱과 서버가 동시에 구동되는지 테스트 및 검증
+- [x] `packages/shared`에 모바일과 서버가 공통으로 쓸 샘플 인터페이스(Type) 작성
+- [x] 모바일 앱과 서버 각각에서 공용 타입을 `import` 할 수 있도록 경로 세팅 (Path Aliases 등)
+- [x] 루트 디렉토리에서 `turbo run dev` 명령어를 통해 앱과 서버가 동시에 구동되는지 테스트 및 검증
